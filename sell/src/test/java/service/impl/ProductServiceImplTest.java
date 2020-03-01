@@ -12,6 +12,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -20,6 +21,7 @@ import java.util.List;
 @SpringBootTest
 public class ProductServiceImplTest {
 
+    @Resource
     @Autowired
     private ProductServiceImpl productService;
 
@@ -37,7 +39,7 @@ public class ProductServiceImplTest {
 
     @Test
     public void findAll() throws Exception {
-        PageRequest request = new PageRequest(0, 2);
+        PageRequest request = PageRequest.of(0, 2);
         Page<ProductInfo> productInfoPage = productService.findAll(request);
 //        System.out.println(productInfoPage.getTotalElements());
         Assert.assertNotEquals(0, productInfoPage.getTotalElements());
