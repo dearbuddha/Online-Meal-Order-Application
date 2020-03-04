@@ -1,4 +1,4 @@
-package repository;
+package com.imooc.sell.repository;
 
 import com.imooc.sell.dataobject.OrderMaster;
 import org.junit.Assert;

@@ -1,4 +1,4 @@
-package service.impl;
+package com.imooc.sell.service.impl;
 
 import com.imooc.sell.dataobject.ProductInfo;
 import com.imooc.sell.enums.ProductStatusEnum;
@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;

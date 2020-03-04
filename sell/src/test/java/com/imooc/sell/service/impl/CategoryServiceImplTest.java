@@ -1,8 +1,6 @@
-package service.impl;
+package com.imooc.sell.service.impl;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 import com.imooc.sell.dataobject.ProductCategory;
 import org.junit.Assert;

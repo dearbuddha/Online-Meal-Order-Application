@@ -1,4 +1,4 @@
-package repository;
+package com.imooc.sell.repository;
 
 import com.imooc.sell.dataobject.ProductCategory;
 import org.junit.Assert;
@@ -49,7 +49,7 @@ public class ProductCategoryRepositoryTest {
 
     @Test
     public void updateTest() {
-//        ProductCategory productCategory = repository.findOne(4);
+//        ProductCategory productCategory = com.imooc.sell.repository.findOne(4);
 //        productCategory.setCategoryName("男生最爱1");
         ProductCategory productCategory = new ProductCategory("男生最爱", 4);
         ProductCategory result = repository.save(productCategory);

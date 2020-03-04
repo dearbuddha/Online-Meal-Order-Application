@@ -1,4 +1,4 @@
-package repository;
+package com.imooc.sell.repository;
 
 import com.imooc.sell.dataobject.ProductInfo;
 import org.junit.Assert;
@@ -11,8 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
