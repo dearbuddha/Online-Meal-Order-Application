@@ -13,6 +13,3 @@ An online meal order service implemented with Spring Boot
 * **RESTful**
 
 * **Frontend: Vue**
-![Product](https://github.com/dearbuddha/Online-Meal-Order-Application/blob/master/product.png)
-![BuyerOrder](https://github.com/dearbuddha/Online-Meal-Order-Application/blob/master/buyer.png)
-![SellerOrder](https://github.com/dearbuddha/Online-Meal-Order-Application/blob/master/seller.png)
