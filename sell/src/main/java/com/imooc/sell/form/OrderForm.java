@@ -1,7 +1,7 @@
 package com.imooc.sell.form;
 
 import lombok.Data;
-import org.hibernate.validator.constraints.NotEmpty;
+import javax.validation.constraints.NotEmpty;
 
 /**
  */
